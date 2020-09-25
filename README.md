@@ -2,6 +2,8 @@
 In this work several different approaches are explored to help visually impaired population by solving image captioning task for VizWiz dataset. The baseline model is based on CNN-LSTM architecture described with multiple modifications to boost performance. In addition, two different
 architectures are explored: CNN-LSTM with attention based and CNN-transformer.
 
+[Read report](https://github.com/volhaleusha/Combining-NLP-and-Computer-Vision-to-Help-Blind-People/blob/master/Combining%20NLP%20and%20Computer%20Vision%20to%20Help%20Blind%20People.pdf)
+
 ## Usage 
 
 #### 1. Clone the repository
