@@ -26,8 +26,7 @@ pip install -r requirements.txt
 chmod +x download.sh
 ./download.sh
 ```
-2. Download pretrained models folder from 
-3. Download output folder from 
+2. Download pretrained models folder from https://drive.google.com/drive/u/0/folders/16hUP6qbARpodivbIVDsK-516CB2vIxNL
 
 #### 3. Preprocessing
 
