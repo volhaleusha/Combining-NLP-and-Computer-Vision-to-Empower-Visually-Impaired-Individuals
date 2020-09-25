@@ -39,15 +39,16 @@ python resize.py
 #### 4. Train the model
 
 ```bash
-python train.py    
+python train.py --model_type 'no_attention'
 ```
+Choose model type: 'no_attention', 'attention' or 'transformer'    
 
 #### 5. Test the model 
 
 ```bash
 python sample.py
 ```
-Usage Example (for more examples, check Visualization-from-paper.ipynb)
+Example (for more examples, check Visualization-from-paper.ipynb)
 ```bash
 python sample.py --image 'data/Images/val/VizWiz_val_00000005.jpg' --image_path 'data/val' --encoder_path 'models/encoder1-4.ckpt' --decoder_path 'models/decoder1-4.ckpt' --vocab_path 'data/vocab.pkl' --num_layers 1 --model_type 'no_attention'
 ```
@@ -56,7 +57,7 @@ python sample.py --image 'data/Images/val/VizWiz_val_00000005.jpg' --image_path 
 ```bash
 python visualize_att.py 
 ```
-Usage Example (for more examples, check Visualization-from-paper.ipynb)
+Example (for more examples, check Visualization-from-paper.ipynb)
 ```bash
 python visualize_att.py --image 'data/Images/val/VizWiz_val_00001623.jpg' --encoder_path 'models/encoder-att-8.ckpt' --decoder_path 'models/decoder-att-8.ckpt'
 ```
@@ -65,7 +66,7 @@ python visualize_att.py --image 'data/Images/val/VizWiz_val_00001623.jpg' --enco
 python evaluate.py'
 ```
 
-Usage Example (for more examples, Analysis_from_paper.ipynb)
+Example (for more examples, Analysis_from_paper.ipynb)
 ```bash
 python evaluate.py --target_path 'data/val.json' --predict_path 'output/predicted_att_8.json'
 ```
